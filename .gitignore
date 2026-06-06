@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model and training output folders
+best-model/
+results-v1/
+results-v2/

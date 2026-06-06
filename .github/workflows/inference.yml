@@ -1,0 +1,39 @@
+name: Inference
+
+on:
+  push:
+    branches: [develop]
+  workflow_dispatch:
+    inputs:
+      input_text:
+        description: "Text to classify"
+        required: true
+        default: "This movie was absolutely amazing!"
+        type: string
+
+jobs:
+  infer:
+    name: Run Model Inference
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Inference
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_MODEL_NAME: Atreyee-Halder/mlops-imdb-sentiment
+          INPUT_TEXT: ${{ github.event.inputs.input_text }}
+        run: |
+          python src/inference.py
