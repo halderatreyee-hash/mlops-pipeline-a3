@@ -1,6 +1,8 @@
 name: Inference
 
 on:
+  push:
+    branches: [develop]
   workflow_dispatch:
     inputs:
       input_text:
@@ -31,6 +33,7 @@ jobs:
       - name: Run Inference
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_MODEL_NAME: Atreyee-Halder/mlops-imdb-sentiment
           INPUT_TEXT: ${{ github.event.inputs.input_text }}
         run: |
           python src/inference.py
