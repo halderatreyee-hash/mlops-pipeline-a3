@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       input_text:
-        description: "Group 18 Assignment"
+        description: "Text to classify"
         required: true
+        default: "This movie was absolutely amazing!"
         type: string
 
 jobs:
