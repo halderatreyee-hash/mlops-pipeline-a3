@@ -7,11 +7,13 @@ from datasets import load_dataset
 print("Loading IMDB dataset...")
 dataset = load_dataset("imdb")
 
+
 def clean_text(text):
     text = re.sub(r'<.*?>', '', text)      # remove HTML tags
     text = re.sub(r'\s+', ' ', text)       # remove extra spaces
     text = text.lower().strip()            # lowercase
     return text
+
 
 # Clean train and test splits
 for split in ["train", "test"]:

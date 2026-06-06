@@ -21,7 +21,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
     label2id=label2id
 )
 
-print(f"Model loaded successfully!")
+print("Model loaded successfully!")
 print(f"Model name: {model_name}")
 print(f"Number of labels: {num_labels}")
 print(f"Labels: {id2label}")
