@@ -1,4 +1,4 @@
-# 🚀 MLOps Assignment 3 — End-to-End MLOps Pipeline
+#  MLOps Assignment 3 — End-to-End MLOps Pipeline
 ### IIT Jodhpur | PGD AI Program | Group Project 18
 
 [![CI](https://github.com/halderatreyee-hash/mlops-pipeline-a3/actions/workflows/ci.yml/badge.svg)](https://github.com/halderatreyee-hash/mlops-pipeline-a3/actions/workflows/ci.yml)
@@ -129,7 +129,7 @@ mlops-pipeline-a3/
 **Final Dataset After Cleaning:**
 - Train: ~25,000 samples
 - Test: ~25,000 samples
-- Class distribution: Balanced (50% positive, 50% negative) ✅
+- Class distribution: Balanced (50% positive, 50% negative) 
 
 **Label Mapping (`id2label.json`):**
 ```json
@@ -138,7 +138,7 @@ mlops-pipeline-a3/
 
 ---
 
-###  Task 3 — Select & Load Model from HuggingFace [10 marks] — Member 1
+###  Task 3 — Select & Load Model from HuggingFace — Member 1
 
 **Model Chosen:** `distilbert-base-uncased`  
 **HuggingFace Model Card:** https://huggingface.co/distilbert-base-uncased
@@ -305,11 +305,11 @@ Confidence: 0.9966
 
 ---
 
-### Task 7 — GitHub Actions CI/CD [15 marks] — Member 4
+### Task 7 — GitHub Actions CI/CD — Member 4
 
 Two automated workflows were implemented and verified to be working:
 
-#### 7.1 CI Workflow — `.github/workflows/ci.yml` 
+#### 7.1 CI Workflow — `.github/workflows/ci.yml.` 
 
 ```yaml
 name: CI
@@ -394,7 +394,7 @@ All secrets stored securely in GitHub → Settings → Secrets → Actions:
 | `DOCKERHUB_USERNAME` | Docker Hub login |
 | `DOCKERHUB_TOKEN` | Docker Hub push authentication |
 
-**No API tokens are hardcoded anywhere in the repository** ✅
+**No API tokens are hardcoded anywhere in the repository** 
 
 ---
 
@@ -518,8 +518,8 @@ Confidence: 0.9967
 
 ##  Pipeline Completion Checklist
 
-| Task | Description | Marks | Status |
-|------|-------------|-------|--------|
+| Task | Description | Status |
+|------|-------------|--------|
 | Task 1 | GitHub repo setup with branch protection & collaborators | Complete |
 | Task 2 | Data preparation and cleaning script (IMDB, 50K samples) | Complete |
 | Task 3 | DistilBERT model selected, loaded with id2label mapping | Complete |
@@ -532,7 +532,7 @@ Confidence: 0.9967
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### Clone & Install
 ```bash
