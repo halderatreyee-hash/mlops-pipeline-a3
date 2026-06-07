@@ -37,8 +37,8 @@ This project demonstrates a **complete, production-grade End-to-End MLOps pipeli
 |--------|----------------|-----------------|
 | **Member 1** — Atreyee Halder | `halderatreyee-hash` | Task 1 (Repo Setup), Task 2 (Data Prep), Task 3 (Model Load), Task 4 (Training + W&B), Task 8 (W&B Dashboard) |
 | **Member 2** — Mahadev Vishwakarma | `g25ait2131` | Task 5 (HuggingFace Model Push), PR Review & Approval |
-| **Member 3** — Gordon | `g25ait2065` | Task 6 (Dockerfile + Inference Script + Docker Hub Push) |
-| **Member 4** | `g25ait2139` | Task 7 (GitHub Actions CI + Inference Workflows) |
+| **Member 3** — Md. Umar Sharief  | `g25ait2065` | Task 6 (Dockerfile + Inference Script + Docker Hub Push) |
+| **Member 4** - Manmeet Singh | `g25ait2139` | Task 7 (GitHub Actions CI + Inference Workflows) |
 
 ---
 
