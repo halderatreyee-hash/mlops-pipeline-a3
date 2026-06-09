@@ -452,26 +452,28 @@ flake8
 
 ##  Git Workflow
 
+```
 main (protected — requires 1 PR review before merge)
   ↑
-  │ ← Pull Request #1
+  │ ← Pull Request #1 (Final Merge)
   │   Created by:  halderatreyee-hash (Member 1)
-  │   Reviewed by: g25ait2131 (Member 2) Approved
+  │   Reviewed by: g25ait2131 (Member 2)  Approved
   │   Merged by:   halderatreyee-hash (Member 1)
-  │   CI Checks:   3/3 passed
+  │   CI Checks:   3/3 passed 
   │
-  │← Pull Request #2 (Member 2 - Task 5)
+  │ ← Pull Request #2 (Member 2 - Task 5)
   │   Branch:      feat/member2-model-push
   │   Created by:  g25ait2131 (Member 2)
-  │   Reviewed by: halderatreyee-hash (Member 1) ✅ Approved
+  │   Reviewed by: halderatreyee-hash (Member 1)  Approved
   │   Merged by:   halderatreyee-hash (Member 1)
-  │   CI Checks:   1/1 passed ✅
+  │   CI Checks:   1/1 passed 
   │
 develop branch (all development work — 16 commits)
   ├── Member 1 (halderatreyee-hash) → Task 1, 2, 3, 4, 8
   ├── Member 2 (g25ait2131)         → Task 5
   ├── Member 3 (g25ait2065)         → Task 6
   └── Member 4 (g25ait2139)         → Task 7
+```
 
 
 ##  Model Performance Summary
