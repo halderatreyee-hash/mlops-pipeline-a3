@@ -19,4 +19,3 @@ result = classifier(INPUT_TEXT)
 
 print(f"Prediction: {result[0]['label']}")
 print(f"Confidence: {result[0]['score']:.4f}")
-
