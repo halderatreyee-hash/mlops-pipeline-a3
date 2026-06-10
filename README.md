@@ -456,6 +456,7 @@ flake8
 main (protected — requires 1 PR review before merge)
   ↑
   │ ← Pull Request #1 (Final Merge)
+  │   Branch:      develop
   │   Created by:  halderatreyee-hash (Member 1)
   │   Reviewed by: g25ait2131 (Member 2)  Approved
   │   Merged by:   halderatreyee-hash (Member 1)
@@ -468,11 +469,19 @@ main (protected — requires 1 PR review before merge)
   │   Merged by:   halderatreyee-hash (Member 1)
   │   CI Checks:   1/1 passed 
   │
+  │ ← Pull Request #3 (Member 3 - Task 6)
+  │   Branch:      feat/member3-inference
+  │   Created by:  g25ait2065 (Member 3)
+  │   Reviewed by: halderatreyee-hash (Member 1)  Approved
+  │   Merged by:   halderatreyee-hash (Member 1)
+  │   CI Checks:   1/1 passed 
+  │
 develop branch (all development work — 16 commits)
   ├── Member 1 (halderatreyee-hash) → Task 1, 2, 3, 4, 8
   ├── Member 2 (g25ait2131)         → Task 5
   ├── Member 3 (g25ait2065)         → Task 6
   └── Member 4 (g25ait2139)         → Task 7
+
 ```
 
 
